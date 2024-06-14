@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "clinic-api"
+version = "0.1.0"
+description = ""
+authors = ["Juclénio António <52287318+JuclenioAntonio@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.0"
+joblib = "^1.4.2"
+numpy = "^1.26.4"
+scikit-learn = "^1.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
